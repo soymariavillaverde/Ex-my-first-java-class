@@ -16,6 +16,8 @@ public class Person {
         this.idNumber = idNumber;
         this.birthYear = birthYear;
         this.originCountry = originCountry;
+
+        //in this case, the char value could only have three values, so I use a conditional to check if the value introduced is valid
         if (gender == 'M' || gender == 'F' || gender == 'O' ) {
             this.gender = gender;
         } else {
