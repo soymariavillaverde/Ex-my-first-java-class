@@ -1,13 +1,13 @@
 package dev.maria;
 
 public class Person {
-    //Atributes
+
     private String name;
     private String lastName;
     private String idNumber;
     private int birthYear;
 
-    //Constructors
+
     public Person (String name, String lastName, String idNumber, int birthYear ){
         this.name = name;
         this.lastName = lastName;
@@ -15,9 +15,7 @@ public class Person {
         this.birthYear = birthYear;
     };
 
-    //Methods
 
-        //getters and setters
     public String getName() {
         return name;
     }
@@ -50,7 +48,7 @@ public class Person {
         this.birthYear = birthYear;
     }
 
-        //other methods
+
     public void PrintAttributes(){
         System.out.println("Name: " + name);
         System.out.println("Last name: " + lastName);
